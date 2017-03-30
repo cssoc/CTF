@@ -1,2 +1,2 @@
 all:
-	gcc -ggdb -o auth auth.c
+	gcc -o auth auth.c
