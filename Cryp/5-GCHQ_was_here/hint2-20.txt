@@ -1,0 +1,1 @@
+Perhaps the author used wikipedia as an aid when implementing the algorithm.

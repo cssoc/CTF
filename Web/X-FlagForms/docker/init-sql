@@ -1,0 +1,18 @@
+#!/bin/bash
+
+mysqld&
+
+while !(mysqladmin ping --silent)
+do
+   echo "waiting for mysql ..."
+   sleep 1
+done
+
+mysql -u root -p
+
+mysqladmin -u root password "awsedrftgyki"
+mysql -u root -p"awsedrftgyki" -e "CREATE DATABASE db;"
+mysql -u root -p"awsedrftgyki" db < `dirname $0`/init.sql
+mysql -u root -p"awsedrftgyki" -e "create user 'challenger'@'localhost' identified by 'eirnhei';"
+mysql -u root -p"awsedrftgyki" -e "grant create, select, insert on *.* to 'challenger'@'localhost';"
+mysql -u root -p"awsedrftgyki" -e "flush privileges;"

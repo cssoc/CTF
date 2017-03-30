@@ -1,0 +1,4 @@
+You are an intelligence officer and have intercepted an enemy transmission.
+Decoding it is vital for the future of your country. So good luck.
+
+Solution should be all uppercase with spaces added.

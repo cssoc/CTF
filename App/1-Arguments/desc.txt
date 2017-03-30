@@ -1,0 +1,2 @@
+It seems that guessing the flag is impossible!
+Perhaps there is another way to recover its value?

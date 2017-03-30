@@ -1,0 +1,6 @@
+An encrypted message was intercepted.
+We belive it was encrypted using aes256cbc.
+There is also a server which seems to accept these encrypted messages
+when sent over a plain TCP connection.
+
+Enter the flag without quotes.

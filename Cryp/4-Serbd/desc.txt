@@ -1,0 +1,6 @@
+You have received an encoded message from your friend, as he is a huge conspiracy theorist.
+Decode the message to see what he will bother you this time with.
+
+We also captured a message that was encrypted using the same alphabet with the key "DELTA"
+
+submit plaintext in uppercase with spaces added

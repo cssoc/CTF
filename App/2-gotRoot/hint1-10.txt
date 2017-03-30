@@ -1,0 +1,2 @@
+It seems that reading alone won't get us far.
+Is there perhaps a way to modify memory with printf?

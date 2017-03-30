@@ -1,0 +1,38 @@
+#!/bin/bash
+
+mysqld&
+
+while !(mysqladmin ping --silent)
+do
+   echo "waiting for mysql ..."
+   sleep 1
+done
+
+mysql -u root -p
+
+mysqladmin -u root password "awsedrftgyki"
+mysql -u root -p"awsedrftgyki" -e "CREATE DATABASE db;"
+mysql -u root -p"awsedrftgyki" db < `dirname $0`/init.sql
+
+# Populate Users table with random tables and passwords from file
+# If too slow, will use a transaction
+head -n 100 /tmp/phpbb.txt | while read line;
+do
+	username="user"$RANDOM;
+	password=$(php -r "echo sha1(\""$line"\");");
+	
+	echo "INSERT INTO Users(username, password_hash) VALUES ('$username', '$password');"
+	
+done | mysql -u root -p"awsedrftgyki" db
+
+
+# Populate Cars table with Car Models from cars.txt
+cat /tmp/cars.txt | while read line;
+do
+	echo "INSERT INTO Cars(brand, value) VALUES ('$line', $RANDOM);"
+	
+done | mysql -u root -p"awsedrftgyki" db
+
+mysql -u root -p"awsedrftgyki" -e "create user 'challenger'@'localhost' identified by 'eirnhei';"
+mysql -u root -p"awsedrftgyki" -e "grant create, select, insert on *.* to 'challenger'@'localhost';"
+mysql -u root -p"awsedrftgyki" -e "flush privileges;"

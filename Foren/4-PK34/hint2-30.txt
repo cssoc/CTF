@@ -1,0 +1,3 @@
+The local file header signature has been changed to something else.
+Restore it to its original value.
+The wikipedia article mentions both the value and the likely location.

@@ -1,0 +1,2 @@
+A program encrypts a file and prints the result to STDOUT, but only after authenticating the user.
+

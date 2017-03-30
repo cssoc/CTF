@@ -1,0 +1,2 @@
+An encrypted file was captured, can you decrypt it?
+We believe that its an image.

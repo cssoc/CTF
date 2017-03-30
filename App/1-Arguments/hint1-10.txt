@@ -1,0 +1,2 @@
+Have a look at the printf function.
+Search for ways to exploit printf.

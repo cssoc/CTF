@@ -1,0 +1,1 @@
+How could a Caesar cipher be applied when we are not dealing with text files?

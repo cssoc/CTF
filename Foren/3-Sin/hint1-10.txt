@@ -1,0 +1,2 @@
+Different keys make different sounds.
+How would you go about finding out which key is which sound?

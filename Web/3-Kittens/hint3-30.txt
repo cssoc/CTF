@@ -1,0 +1,1 @@
+The messaging system is vulnerable to cross side scripting.

@@ -1,0 +1,2 @@
+If only you could get your hand on the DB table with the administrator.
+But how could you possibly access it?

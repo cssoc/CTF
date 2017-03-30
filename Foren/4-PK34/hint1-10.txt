@@ -1,0 +1,2 @@
+Read the wikipedia article on the zip file format.
+Perhaps you can figure out if this file is missing something.

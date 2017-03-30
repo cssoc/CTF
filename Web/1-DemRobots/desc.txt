@@ -1,0 +1,6 @@
+Some 12 year old kid got a free site that only serves static content.
+He can't upgrade to a site with a backend because his parents don't allow him
+to use their credit card.
+
+He is part of an annoying group and there's a password hidden on this
+website. The password is also "encoded", submit it in decoded form, it's a single word lowercase only.

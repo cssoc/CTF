@@ -1,0 +1,52 @@
+body{
+    background-image: url(15.jpg);
+     
+    background-size: cover;
+    opacity:1;
+    
+    
+}
+#form1{
+    background-image: url(14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 5px 5px 2px black;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+    padding: 3% 10% 3% 10%;
+    border: 2px solid black;
+    opacity: 0.8;
+    
+}
+
+.point{
+    margin-left: 3.5px;
+}
+.input{
+    
+    width:60%;
+    
+}
+#login{
+  float:left;
+    
+}
+#submit{
+    
+    float:left;
+}
+#credits{float:right;
+    margin-top:7%;
+    
+    margin-right: -60%;
+    
+    
+}
+
+p,h2,label,h1,span{
+    
+     text-shadow: 1px 1px 1px gray;
+}

@@ -1,0 +1,2 @@
+What kind of argument is expected when %n is encountered in the string?
+Can you find something that would qualify as such an argument in the source code?

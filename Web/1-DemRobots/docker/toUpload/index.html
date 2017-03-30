@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+div{
+-moz-border-radius:10px;  /* for Firefox */
+-webkit-border-radius:10px; /* for Webkit-Browsers */
+border-radius:10px; /* regular */
+background-color: white;
+margin: auto;
+width: 50%;
+	padding-top: 0.25cm;
+	padding-left: 0.5cm;
+	padding-bottom: 0.5cm;
+}
+
+body{
+	padding-top: 5cm;
+background-image: url(bg.gif);
+background-size: cover;
+}
+
+
+</style>
+
+<script src="md5.js"></script>
+</head>
+<body>
+<div>
+
+<h1>rX01</h1>
+
+<textarea id="text" row="1" cols="50">
+Enter your secret password...
+</textarea>
+
+<button id="Save">Submit</button>
+</div>
+</body>
+
+<script>
+
+document.getElementById("Save").onclick = function encode()
+{
+	var input = document.getElementById("text").value;
+	var str = md5(input);
+	window.location.href = str +  ".html";
+}
+
+</script>
+</html>

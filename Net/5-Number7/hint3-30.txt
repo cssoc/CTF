@@ -1,0 +1,1 @@
+The server most likely uses OpenSSL, look into how one wold write a server that decrypts aes256cbc with openssl.

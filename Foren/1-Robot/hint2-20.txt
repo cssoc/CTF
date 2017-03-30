@@ -1,0 +1,2 @@
+It's a SSTV signal.
+Figure out how to recover the data.

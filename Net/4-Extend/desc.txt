@@ -1,0 +1,9 @@
+There is this webserver with an api.
+We could captures the following request.
+http://[DOMAIN]/api.php?key=a6c33a258a7475828b468546320f4c0cf6cf9577086a31b126f266e5944ff4a7&command=open&file=info
+
+The key needs to be the first get parameter. It can be calculated by appending the secret before the first parameter and hashing it with SHA256.
+SHA256(SECRET + command=[value]&file=[value]) in this instance.
+The actual request then is
+api.php?key=[hashval]&command=[val]&file=[val]
+Any values should be urlencoded.

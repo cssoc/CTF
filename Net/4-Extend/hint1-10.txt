@@ -1,0 +1,1 @@
+Should hashing algorithms really be used like this?

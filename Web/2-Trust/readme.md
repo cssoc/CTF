@@ -1,0 +1,1 @@
+The users need to figure out a way to change the password of their supervisor in order to get the flag by exploiting the vulnerability of the forms.

@@ -1,0 +1,2 @@
+This is a simple website with normal users and supervisors.
+Your supervisor has some interesting information and you'd like to get into his account.

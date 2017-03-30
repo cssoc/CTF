@@ -1,0 +1,1 @@
+Look into how SHA256 works on a superficial level.

@@ -1,0 +1,2 @@
+There are various tools that let you analyse sounds and recover the sine waves.
+An example would be audacity.

@@ -1,0 +1,6 @@
+A Car website owner is lazy but naive with their search instructions.
+Can you penetrate it and get the private information?
+
+You also got your hands on this wordlist.
+
+<a href="list">list.txt</a>

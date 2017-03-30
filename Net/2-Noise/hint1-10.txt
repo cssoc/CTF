@@ -1,0 +1,1 @@
+You may want to open the data the server sends to you in a hex editor.
