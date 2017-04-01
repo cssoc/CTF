@@ -1,3 +1,3 @@
 Simple Caesar cipher. Should be really easy.
 Encrypted jpeg.
-simple caesar cipher extended to binary with key 137
+Cipher extended to binary files with the key 137.
