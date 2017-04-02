@@ -1,1 +1,1 @@
-Flag is hidden in comment file of the image.
+Flag is hidden in comment field of the image.
