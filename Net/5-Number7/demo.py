@@ -57,12 +57,6 @@ while(blocks > 1):
     print(rightGuess)
     realBlocks -= 1
     blocks -= 1
-#    fd = open('secret.enc', 'rb')
-#    for i in range(blocks):
-#        blockBuffer[i] = fd.read(16)
-#
-#    fd.close()
-
     origBuffer = origBuffer[:-1]
 
     blockBuffer = origBuffer[:]
