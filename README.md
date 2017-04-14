@@ -3,27 +3,27 @@ Challenges with some solutions for the CTF from the 18th of March 2017.
 
 ## Challenges
 
-* [AppSec (not part of the CTF)](#AppSec)
+* [AppSec (not part of the CTF)](#appsec)
 	* Arguments
 	* gotRoot
-* [Cryptology](#Cryptology)
+* [Cryptology](#cryptology)
 	* Roman
 	* Alphabets
 	* Whirl
 	* Serbd
 	* GCHQ_was_here
-* [Forensics](#Forensics)
+* [Forensics](#forensics)
 	* Robot
 	* HowFrench
 	* Sin
 	* PK34
-* [NetSec](#NetSec)
+* [NetSec](#netsec)
 	* PT
 	* Noise
 	* Zone
 	* Extend
 	* Number7
-* [WebSec](#WebSec)
+* [WebSec](#websec)
 	* DemRobots
 	* Trust
 	* Kittens
