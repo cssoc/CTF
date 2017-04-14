@@ -4,33 +4,7 @@ A total of 7 teams participated.
 
 ## Challenges
 
-* [AppSec (not part of the CTF)](#appsec)
-	* Arguments
-	* gotRoot
-* [Cryptology](#cryptology)
-	* Roman
-	* Alphabets
-	* Whirl
-	* Serbd
-	* GCHQ_was_here
-* [Forensics](#forensics)
-	* Robot
-	* HowFrench
-	* Sin
-	* PK34
-* [NetSec](#netsec)
-	* PT
-	* Noise
-	* Zone
-	* Extend
-	* Number7
-* [WebSec](#websec)
-	* DemRobots
-	* Trust
-	* Kittens
-	* Comments
-	* Hash
-	* FlagForms (not part of the CTF)
+For details on the challenges, open the respective directory.
 
 ### AppSec
 This challenges weren't included in the CTF due to technical difficulties and a lack of time.
@@ -46,7 +20,7 @@ Roman | 0 | [3553x](https://github.com/3553x)
 Alphabets | 5 | [TPDragos](https://github.com/TPDragos)
 Whirl | 0 | [TPDragos](https://github.com/TPDragos)
 Serbd | 0 | [TPDragos](https://github.com/TPDragos)
-GCHQ_was_here | 1 | [TPDragos](https://github.com/TPDragos) [3553x](https://github.com/3553x)
+GCHQ_was_here | 1 | [TPDragos](https://github.com/TPDragos) & [3553x](https://github.com/3553x)
 
 ### Forensics
 Challenge | Solved by | Author
@@ -72,4 +46,21 @@ Trust | 3 | [AlexandraDumitriu](https://github.com/AlexandraDumitriu)
 Kittens | 3 | [AlexandraDumitriu](https://github.com/AlexandraDumitriu)
 Comments | 3 | [AlexandraDumitriu](https://github.com/AlexandraDumitriu)
 Hash | 0 | [Dominaezzz](https://github.com/Dominaezzz)
-FlagForms | | [Dominaezzz](https://github.com/Dominaezzz)
+FlagForms | Not included | [Dominaezzz](https://github.com/Dominaezzz)
+
+## Special Thanks
+
+[HarrySonghurst](https://github.com/HarrySonghurst)
+Testing and providing feedback
+
+[Mitame](https://github.com/Mitame/)
+Testing and providing feedback
+
+[MisterDoom](https://github.com/MisterDoom)
+Testing, providing feedback and suggesting challenges
+
+[Tristan](???)
+Providing feedback, suggesting challenges, writing unittests for the scoreboard
+
+[Octav](???)
+Offering advice, helping with meetings and organisation.
