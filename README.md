@@ -34,6 +34,7 @@ A total of 7 teams participated.
 
 ### AppSec
 This challenges weren't included in the CTF due to technical difficulties and a lack of time.
+
 Challenge | Author
 --- | ---
 gotRoot | @3553x
