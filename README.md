@@ -59,7 +59,7 @@ Testing and providing feedback
 [MisterDoom](https://github.com/MisterDoom)
 Testing, providing feedback and suggesting challenges
 
-[Tristan](???)
+[TLATER](https://github.com/TLATER)
 Providing feedback, suggesting challenges, writing unittests for the scoreboard
 
 [Octav](???)
