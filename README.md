@@ -62,5 +62,5 @@ Testing, providing feedback and suggesting challenges
 [TLATER](https://github.com/TLATER)
 Providing feedback, suggesting challenges, writing unittests for the scoreboard
 
-[toctavia](https://github.com/toctavia)
+[toctavian](https://github.com/toctavian)
 Offering advice, helping with meetings and organisation.
